@@ -10,10 +10,14 @@ Install OEM mode, encryption and more
 - Select Something else
 
 1. Select disk -> New Partition table (fresh install)
+
 2. Select "Free Space" of disk for every partition (case)
     [use + to add and watch for Change button]
+
 (a) 733MB,  Primary,  Use As: EFI System Partition
+
 (b) 2GB, Ext4, /boot (Primary Partition)
+
 (c) ...
 	- First, add 115GB as Physical volume for encryption
 	- Second, Change the device mapper to Ext4 / (root) 
