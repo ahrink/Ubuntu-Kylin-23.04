@@ -1,20 +1,36 @@
 20230807
 two wallets that may stir interest to be installed on a Desktop,  Exodus and Ledger -- both are fine and secured keeping your coins in your pocket not on a centralized “Bank” or some new unsafe website. Just keep in mid that this subject is old pertaining to the separation of hardware and software – in principals.
+
 # 1. https://www.exodus.com/download/
+
 # 2. click on download-desktop select Download Linux (.deb)
+
 # 3. cd /home/sananton/Downloads
+
 # 4. apt install ./exodus-linux-x64-23.8.1.deb
+
 Note: UKUI menu should have the link ready to “right-click” and place an Icon on desktop.
+
 … ledger is French… [however, all paths are fictive to example and suggests the use of unique-names also original]
+
 # 1. assuming user downloaded the desktop version of ledger for Linux (ledger-live-desktop-2.64.2-linux-x86_64.AppImage)
+
 # 2. mkdir /home/sananton/xOLdg
+
 # 3. cp /home/sananton/Downloads/ledger-live* /home/sananton/xOLdg/
+
 # 4. ls -l /home/sananton/xOLdg/ # just to make sure the file is there
+
 # 5. cd /home/sananton/xOLdg/
-# 5. apt install libfuse2
-# 6. wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
-# 7. Use the desktop file explorer to create a desktop icon/link to the file residing in /home/sananton/xOLdg/ledger-live-desktop-2.64.2-linux-x86_64.AppImage
-# 8. Rename the Icon on desktop to whatever name.
+
+# 6. apt install libfuse2
+
+# 7. wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
+
+# 8. Use the desktop file explorer to create a desktop icon/link to the file residing in /home/sananton/xOLdg/ledger-live-desktop-2.64.2-linux-x86_64.AppImage
+
+# 9. Rename the Icon on desktop to whatever name.
+
 Note: while launching the ledger from the Ubuntu desktop exercise patience – as it takes almost a minute to pop its window for usage. As you know, it does require internet.
 
 San Anton 20230807 [wallets]
