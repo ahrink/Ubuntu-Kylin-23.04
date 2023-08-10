@@ -48,20 +48,20 @@ As a last user-preference, the right-click on the Task-Bar to select Options eg 
 From this point on the system is ready to add software (packages) and internet connection is a must unless such packages are saved on other media or local network.
 
 Since not all packages are delivered by Kylin 23.04, the recourse is Gnome: (via terminal)
-apt-get update && apt-get upgrade -y
-apt-get install gnome-software -y
+# 1. apt-get update && apt-get upgrade -y
+# 2. apt-get install gnome-software -y
 
 Balena Etcher is widely used: (root provided CMDs via terminal)
 - get Balena Etcher from github
-cd /home/sananton/Downloads/
-wget https://github.com/balena-io/etcher/releases/tag/v1.18.12/balena-etcher_1.18.12_amd64.deb
-apt install ./balena-etcher_1.18.12_amd64.deb 
+# 1. cd /home/sananton/Downloads/
+# 2. wget https://github.com/balena-io/etcher/releases/tag/v1.18.12/balena-etcher_1.18.12_amd64.deb
+# 3. apt install ./balena-etcher_1.18.12_amd64.deb 
 
 - where path is /home, preinstalled by Kylin desktop, followed by user name and the well known Downloads folder.
 
 If the download is executed via browser, just issue the CMD in the terminal
 cd … to downloads
-apt install ./balena-etcher_1.18.12_amd64.deb 
+# : apt install ./balena-etcher_1.18.12_amd64.deb 
 
 Now, the Kylin desktop noticed the changes and wants to upgrade. However prior upgrading, look in the UKUI Menu for the Balena Etcher and create a shortcut on desktop eg right-click on the listed item in the  UKUI Menu to create shortcut.
 
